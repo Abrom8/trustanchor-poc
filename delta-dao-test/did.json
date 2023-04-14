@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:Abrom8:trustanchor-poc:main:delta-dao-test",
+  "verificationMethod": [
+    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:raw.githubusercontent.com:Abrom8:trustanchor-poc:main:delta-dao-test",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "tkmCnGrjulXcMqI2u56KTYt71HCti7tHnxQ5sSIUabRizh3M0_yXAB2svHxV8b8VNSH-1LWJJOeiRtk_eyoerBRVhGJ6pemv1n0dyYLwnEBt5aOzb8F4VIAnkNTBw-5ECYEU15sXsDmgkIDCHxcvT7pAvPR_mcYurkE3WZPP-yqOjJHFVPWhb0v_7xUHkZ7fgRFthB_UzcA1EJIFGArLnMUrDVMorSZgnoS-ZAWQgq6ZMUGZezKQmtb75Hl4Rip3fZbLo7jBG_CfQvwcPjP4AYWTc6GUy710KvKc3mEAIyifT2slhfB6RBELdUOUEOVAWOb3uyoE5HbvHB_ScdVuIw",
+        "e": "AQAB",
+        "alg": "PS256",
+        "x5u": "https://raw.githubusercontent.com/Abrom8/trustanchor-poc/main/delta-dao-test/CertificateChain.crt"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:Abrom8:trustanchor-poc:main:delta-dao-test#JWK2020-RSA"
+  ]
+}
